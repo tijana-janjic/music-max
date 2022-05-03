@@ -10,14 +10,14 @@
       <button mat-button>Home</button>
 
       <button mat-button [matMenuTriggerFor]="musicMenu">Music</button>
-      <mat-menu #musicMenu="matMenu" yPosition="below" xPosition="after">
-        <button mat-menu-item>Pop</button>
-        <button mat-menu-item>Rock</button>
-        <button mat-menu-item>Jazz</button>
-        <button mat-menu-item routerLink="/music">All</button>
+      <mat-menu #musicMenu="matMenu" yPosition="below" xPosition="after" class="accent-color" >
+        <button mat-menu-item class="text-primary-color">Pop</button>
+        <button mat-menu-item class="text-primary-color">Rock</button>
+        <button mat-menu-item class="text-primary-color">Jazz</button>
+        <button mat-menu-item routerLink="/music" class="text-primary-color">All</button>
       </mat-menu>
 
-      <button mat-button routerLink="/forum">Forum</button>
+      <button mat-button routerLink="/forum" class="text-primary-color">Forum</button>
 
       <button mat-button routerLink="/admin">Admin</button>
 

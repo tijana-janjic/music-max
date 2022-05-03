@@ -1,9 +1,8 @@
 #meni {
     width: 100%;
-    color: bisque;
+    color: 3c1518;
     display: flex;
     justify-content: center;
-    background-color: rgb(25, 36, 36);
 }
 
 #right {
